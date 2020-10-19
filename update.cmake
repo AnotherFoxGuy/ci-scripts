@@ -7,5 +7,4 @@ string(REGEX REPLACE /[^0-9\\.]/ "" VERSION ${VERSION_DIRTY})
 string(REPLACE "." "_" VERSION_UNDERSCORE ${VERSION})
 
 message("Latest VERSION ${VERSION}")
-
-configure_file("templates/install-${TOOL}.sh.in" install-${TOOL}.sh @ONLY)
+configure_file("${CMAKE_CURRENT_LIST_DIR}/templates/install-${TOOL}.sh.in" "${CMAKE_CURRENT_LIST_DIR}/install-${TOOL}.sh" @ONLY)
