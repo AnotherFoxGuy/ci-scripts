@@ -1,6 +1,5 @@
 #!/bin/bash
 set -eu
 
-cd /tmp/
-lastversion conan-io/conan --assets --filter deb -d
-dpkg -i $(find . -name "conan-ubuntu-64*.deb")
+wget "https://dl.bintray.com/conan/installers/conan-ubuntu-64_1_30_2.deb" -nv -O /tmp/conan.deb
+dpkg -i /tmp/conan.deb

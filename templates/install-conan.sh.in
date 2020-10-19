@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eu
+
+wget "https://dl.bintray.com/conan/installers/conan-ubuntu-64_@VERSION_UNDERSCORE@.deb" -nv -O /tmp/conan.deb
+dpkg -i /tmp/conan.deb
