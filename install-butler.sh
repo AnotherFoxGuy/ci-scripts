@@ -2,7 +2,7 @@
 set -eu
 
 mkdir -p /tmp/butler/
-wget https://broth.itch.ovh/butler/linux-amd64/LATEST/archive/default -O /tmp/butler.zip
+wget https://broth.itch.ovh/butler/linux-amd64/LATEST/archive/default -nv -O /tmp/butler.zip
 unzip /tmp/butler.zip -d /tmp/butler/
 install /tmp/butler/butler /usr/local/bin/ -m 755
 install /tmp/butler/7z.so /usr/local/lib/
