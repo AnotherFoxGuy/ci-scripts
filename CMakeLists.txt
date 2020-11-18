@@ -12,4 +12,12 @@ foreach (item IN ITEMS ${TOOLS})
         COMMAND ${CMAKE_COMMAND} -DTOOL=${TOOL} -DREPO=${item} -P ${CMAKE_SOURCE_DIR}/update.cmake  
         VERBATIM
     )
+    list(APPEND all_tools ${TOOL})
 endforeach ()
+
+add_custom_target(
+        update_all ALL
+        COMMENT "Zip and copy resources to build directory"
+        DEPENDS ${all_tools}
+        VERBATIM
+)
