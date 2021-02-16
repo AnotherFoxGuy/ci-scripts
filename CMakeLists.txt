@@ -17,7 +17,7 @@ endforeach ()
 
 add_custom_target(
         update_all ALL
-        COMMENT "Zip and copy resources to build directory"
+        COMMENT "Update all tools"
         DEPENDS ${all_tools}
         VERBATIM
 )
