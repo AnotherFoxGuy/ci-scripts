@@ -1,6 +1,6 @@
 message("TOOL \"${TOOL}\" REPO \"${REPO}\"")
 
-SET(URL "https://api.github.com/repos/${REPO}/releases/latest")
+SET(URL "https://api.github.com/repos/${REPO}/${TOOL}/releases/latest")
 
 execute_process(COMMAND curl -s -L ${URL} OUTPUT_VARIABLE VERSION_JSON)
 string(JSON VERSION_DIRTY GET ${VERSION_JSON} tag_name)
