@@ -1,5 +1,5 @@
 #!/bin/bash
 set -eu
 
-wget "https://dl.bintray.com/conan/installers/conan-ubuntu-64_1_35_2.deb" -nv -O /tmp/conan.deb
+wget "https://github.com/conan-io/conan/releases/latest/download/conan-ubuntu-64.deb" -nv -O /tmp/conan.deb
 dpkg -i /tmp/conan.deb
