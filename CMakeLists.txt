@@ -7,6 +7,7 @@ set(TOOLS
     "mozilla/sccache"
     "muesli/duf"
     "jesseduffield/lazygit"
+    "jesseduffield/lazydocker"
     )
 
 set(EXTRA_TOOLS 

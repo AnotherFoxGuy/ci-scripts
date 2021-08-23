@@ -28,6 +28,12 @@ Repo: https://github.com/jesseduffield/lazygit
 
 `curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-lazygit.sh" | sudo bash`
 
+### lazydocker
+
+Repo: https://github.com/jesseduffield/lazydocker
+
+`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-lazydocker.sh" | sudo bash`
+
 ### butler
 
 Repo: https://github.com/itchio/butler
