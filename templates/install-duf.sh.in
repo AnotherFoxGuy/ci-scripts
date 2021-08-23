@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eu
+
+wget "https://github.com/muesli/duf/releases/download/v@VERSION@/duf_@VERSION@_linux_amd64.deb" -nv -O /tmp/duf.deb
+dpkg -i /tmp/duf.deb
