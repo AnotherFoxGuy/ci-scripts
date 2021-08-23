@@ -2,11 +2,6 @@ macro(mgs text)
     execute_process(COMMAND ${CMAKE_COMMAND} -E cmake_echo_color --green --bold ${text})
 endmacro()
 
-
-string(REPLACE "/" ";" RLIST "${GH_REPO}")
-list(GET RLIST 0 OWNER)
-list(GET RLIST 1 TOOL)
-
 mgs("TOOL \"${TOOL}\" OWNER \"${OWNER}\"")
 
 SET(URL "https://api.github.com/repos/${OWNER}/${TOOL}/releases/latest")
