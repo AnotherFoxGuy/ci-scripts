@@ -8,6 +8,7 @@ set(TOOLS
     "muesli/duf"
     "jesseduffield/lazygit"
     "jesseduffield/lazydocker"
+    "svenstaro/miniserve"
     )
 
 set(EXTRA_TOOLS 

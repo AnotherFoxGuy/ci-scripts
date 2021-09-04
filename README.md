@@ -34,6 +34,12 @@ Repo: https://github.com/jesseduffield/lazydocker
 
 `curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-lazydocker.sh" | sudo bash`
 
+### miniserve
+
+Repo: https://github.com/svenstaro/miniserve
+
+`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-miniserve.sh" | sudo bash`
+
 ### butler
 
 Repo: https://github.com/itchio/butler
