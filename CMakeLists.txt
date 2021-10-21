@@ -9,6 +9,7 @@ set(TOOLS
     "jesseduffield/lazygit"
     "jesseduffield/lazydocker"
     "svenstaro/miniserve"
+    "rami3l/pacaptr"
     )
 
 set(EXTRA_TOOLS 

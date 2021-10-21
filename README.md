@@ -40,6 +40,12 @@ Repo: https://github.com/svenstaro/miniserve
 
 `curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-miniserve.sh" | sudo bash`
 
+### pacaptr
+
+Repo: https://github.com/rami3l/pacaptr
+
+`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-pacaptr.sh" | sudo bash`
+
 ### butler
 
 Repo: https://github.com/itchio/butler
