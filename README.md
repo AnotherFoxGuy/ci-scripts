@@ -8,53 +8,53 @@ Available tools:
 
 Repo: https://github.com/kitware/cmake
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-cmake.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-cmake.sh" | sudo bash`
 
 ### sccache
 
 Repo: https://github.com/mozilla/sccache
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-sccache.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-sccache.sh" | sudo bash`
 
 ### duf
 
 Repo: https://github.com/muesli/duf
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-duf.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-duf.sh" | sudo bash`
 
 ### lazygit
 
 Repo: https://github.com/jesseduffield/lazygit
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-lazygit.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-lazygit.sh" | sudo bash`
 
 ### lazydocker
 
 Repo: https://github.com/jesseduffield/lazydocker
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-lazydocker.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-lazydocker.sh" | sudo bash`
 
 ### miniserve
 
 Repo: https://github.com/svenstaro/miniserve
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-miniserve.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-miniserve.sh" | sudo bash`
 
 ### pacaptr
 
 Repo: https://github.com/rami3l/pacaptr
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-pacaptr.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-pacaptr.sh" | sudo bash`
 
 ### butler
 
 Repo: https://github.com/itchio/butler
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-butler.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-butler.sh" | sudo bash`
 
 ### conan
 
 Repo: https://github.com/conan-io/conan
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-conan.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-conan.sh" | sudo bash`
 

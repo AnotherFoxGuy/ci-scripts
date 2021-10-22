@@ -22,7 +22,7 @@ set(TOOL_TMP [==[
 
 Repo: https://github.com/@item@
 
-`curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-@TOOL@.sh" | sudo bash`
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-@TOOL@.sh" | sudo bash`
 ]==])
 
 set(README [==[
