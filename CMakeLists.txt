@@ -10,6 +10,7 @@ set(TOOLS
     "jesseduffield/lazydocker"
     "svenstaro/miniserve"
     "rami3l/pacaptr"
+    "Doctave/doctave"
     )
 
 set(EXTRA_TOOLS 

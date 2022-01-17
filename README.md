@@ -46,6 +46,12 @@ Repo: https://github.com/rami3l/pacaptr
 
 `curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-pacaptr.sh" | sudo bash`
 
+### doctave
+
+Repo: https://github.com/Doctave/doctave
+
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-doctave.sh" | sudo bash`
+
 ### butler
 
 Repo: https://github.com/itchio/butler
