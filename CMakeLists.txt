@@ -11,6 +11,7 @@ set(TOOLS
     "svenstaro/miniserve"
     "rami3l/pacaptr"
     "Doctave/doctave"
+    "go-gitea/gitea"
     )
 
 set(EXTRA_TOOLS 

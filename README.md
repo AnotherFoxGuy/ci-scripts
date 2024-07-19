@@ -52,6 +52,12 @@ Repo: https://github.com/Doctave/doctave
 
 `curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-doctave.sh" | sudo bash`
 
+### gitea
+
+Repo: https://github.com/go-gitea/gitea
+
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-gitea.sh" | sudo bash`
+
 ### butler
 
 Repo: https://github.com/itchio/butler

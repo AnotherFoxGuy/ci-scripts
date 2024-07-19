@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eu
+
+wget "https://github.com/go-gitea/gitea/releases/download/v@VERSION@/gitea-@VERSION@-linux-amd64" -nv -O /tmp/gitea
+install -m 755 /tmp/gitea /usr/local/bin/
