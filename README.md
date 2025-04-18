@@ -58,6 +58,12 @@ Repo: https://github.com/go-gitea/gitea
 
 `curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-gitea.sh" | sudo bash`
 
+### eget
+
+Repo: https://github.com/zyedidia/eget
+
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-eget.sh" | sudo bash`
+
 ### butler
 
 Repo: https://github.com/itchio/butler

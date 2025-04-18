@@ -1,0 +1,6 @@
+#!/bin/bash
+set -eu
+
+wget "https://github.com/zyedidia/eget/releases/download/v@VERSION@/eget-@VERSION@-linux_amd64.tar.gz" -nv -O /tmp/eget.tar.gz
+tar xvzf /tmp/eget.tar.gz -C /tmp/eget
+install -m 755 /tmp/eget/eget-@VERSION@-linux_amd64/eget /usr/local/bin/

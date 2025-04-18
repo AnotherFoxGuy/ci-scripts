@@ -12,6 +12,7 @@ set(TOOLS
     "rami3l/pacaptr"
     "Doctave/doctave"
     "go-gitea/gitea"
+    "zyedidia/eget"
     )
 
 set(EXTRA_TOOLS 
