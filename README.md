@@ -1,6 +1,6 @@
 # ci-scripts
 
-Some bashscripts for installing devtools on Ubuntu 
+Some bashscripts for installing devtools on Ubuntu
 
 Available tools:
 
@@ -63,6 +63,12 @@ Repo: https://github.com/go-gitea/gitea
 Repo: https://github.com/zyedidia/eget
 
 `curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-eget.sh" | sudo bash`
+
+### btop
+
+Repo: https://github.com/aristocratos/btop
+
+`curl "https://git.anotherfoxguy.com/AnotherFoxGuy/install-scripts/raw/branch/main/install-btop.sh" | sudo bash`
 
 ### butler
 

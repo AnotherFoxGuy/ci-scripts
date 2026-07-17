@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(ci-scripts LANGUAGES NONE)
 
-set(TOOLS 
-    "kitware/cmake" 
+set(TOOLS
+    "kitware/cmake"
     "mozilla/sccache"
     "muesli/duf"
     "jesseduffield/lazygit"
@@ -13,10 +13,11 @@ set(TOOLS
     "Doctave/doctave"
     "go-gitea/gitea"
     "zyedidia/eget"
+    "aristocratos/btop"
     )
 
-set(EXTRA_TOOLS 
-    "itchio/butler" 
+set(EXTRA_TOOLS
+    "itchio/butler"
     "conan-io/conan"
     )
 
@@ -31,7 +32,7 @@ Repo: https://github.com/@item@
 set(README [==[
 # ci-scripts
 
-Some bashscripts for installing devtools on Ubuntu 
+Some bashscripts for installing devtools on Ubuntu
 
 Available tools:
 @TOOL_LIST@
